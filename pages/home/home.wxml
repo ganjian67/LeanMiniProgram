@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<text>Hello World!</text>
+<input value="123"></input>
+
+<my-cpn></my-cpn>
+
+<w-tab-control titles="{{['衣服','鞋子','裤子']}}"/>
+
+<!-- 直接选中组件修改数据/调用方法 -->
+<button size="mini" bind:tap="handleIncrementCpn">修改组件中的数据</button>
+<my-sel class="sel-class"/>
+
+<view>---------------------------</view>
+<!-- 7.插槽的使用slot -->
+<view>我是头部</view>
+<slot>
+  <image src="http://dmimg.5054399.com/allimg/pkm/pk/22.jpg"></image>
+</slot>
+<view>我是尾部</view>
+
+<!-- 8、弹窗 -->
+<button size="mini" bind:tap="handleShowToast">showToast</button>

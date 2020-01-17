@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-cpn":"/components/my-cpn/my-cpn",
+    "w-tab-control":"/components/w-tab-control/w-tab-control",
+    "my-sel":"/components/my-sel/my-sel"
+  }
+}
